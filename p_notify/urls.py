@@ -19,5 +19,5 @@ from landing import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index.html),
+    path('', views.retornar_index),
 ]
